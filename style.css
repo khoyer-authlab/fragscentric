@@ -241,15 +241,29 @@ section.why-decant {
 .why-decant-left {
   width: 358px;
 }
+
 .why-decant-left small {
-  color: #fff;
-  font-family: Satoshi;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0.96px;
-  text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    font-family: Satoshi;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    text-transform: uppercase;
+    margin-left: 22px;
+}
+
+.why-decant-left small::before {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    content: "";
+    height: 15px;
+    width: 5px;
+    background: #ffb800;
 }
 
 .why-decant-left h2 {
