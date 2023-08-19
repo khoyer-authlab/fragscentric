@@ -253,7 +253,7 @@ section.why-decant {
     line-height: normal;
     letter-spacing: 0.96px;
     text-transform: uppercase;
-    margin-left: 22px;
+    margin-left: 10px;
 }
 
 .why-decant-left small::before {
@@ -275,6 +275,7 @@ section.why-decant {
   letter-spacing: -2.24px;
   text-transform: capitalize;
   margin-top: 5px;
+  margin-bottom:5px;
 }
 
 .why-decant-left p {
