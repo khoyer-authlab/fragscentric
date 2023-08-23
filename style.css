@@ -15,7 +15,7 @@ section {
 }
 
 .hero {
-  background: url("./assets/hero.jpeg");
+  background: url("./assets/hero.jpg");
   background-size: cover;
   background-position: center center;
   margin-top: 0;
