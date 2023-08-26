@@ -378,7 +378,8 @@ video {
   transform: translate(-50%, -50%);
   background: none;
   border: none;
-  font-size: 36px;
+  font-size: 72px;
+  color: #fff;
   cursor: pointer;
 }
 
