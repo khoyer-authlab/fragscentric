@@ -216,6 +216,7 @@ section.why-decant {
   background: url(./assets/why.png);
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: #fff;
   display: flex;
   align-items: center;
@@ -432,6 +433,7 @@ section.cta {
   flex-wrap: wrap;
   background-image: url(./assets/cta.png);
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   padding: 44px 0px;
 }
