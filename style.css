@@ -678,6 +678,10 @@ footer {
   div#why-decant-list {
     display: flex;
   }
+
+  section.cta h2 {
+    font-size: 32px;
+  }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 30em) and (max-width: 47.9375em) {
