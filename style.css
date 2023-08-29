@@ -514,6 +514,9 @@ footer {
 }
 /* Tablet & mobile Layout: 768px. */
 @media only screen and (max-width: 61.9375em) {
+  .about-right h2 {
+    font-size: 32px;
+}
 }
 
 /* Tablet Layout: 768px. */
