@@ -514,9 +514,6 @@ footer {
 }
 /* Tablet & mobile Layout: 768px. */
 @media only screen and (max-width: 61.9375em) {
-  .about-right h2 {
-    font-size: 32px;
-}
 }
 
 /* Tablet Layout: 768px. */
@@ -645,6 +642,10 @@ footer {
   section.about {
     padding: 0 20px;
     gap: 0;
+  }
+
+    .about-right h2 {
+    font-size: 32px;
   }
 
   ul.about-images {
