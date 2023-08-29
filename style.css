@@ -644,7 +644,7 @@ footer {
     gap: 0;
   }
 
-    .about-right h2 {
+  .about-right h2 {
     font-size: 32px;
   }
 
@@ -659,6 +659,10 @@ footer {
     padding: 35px 20px;
     padding-bottom: 90px;
   }
+
+  .why-decant-left h2 {
+    font-size: 32px;
+}
 
   .why-decant-left small {
     display: none;
