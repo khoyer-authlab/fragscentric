@@ -164,16 +164,16 @@ ul.about-images li {
   width: 160px;
 }
 
-ul.about-images li::after {
-  position: absolute;
-  height: 160px;
-  width: 160px;
-  background: #fff;
-  left: 0;
-  top: 0;
-  content: "";
-  opacity: 0.3;
-  background-blend-mode: multiply;
+ul.about-images li:not(:first-child)::after {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background: #fff;
+    left: 0;
+    top: 0;
+    content: "";
+    opacity: 0.5;
+    mix-blend-mode: multiply;
 }
 
 ul.about-images li img {
@@ -382,6 +382,15 @@ video {
   font-size: 72px;
   color: #fff;
   cursor: pointer;
+}
+
+#play-pause-button svg {
+  height: 72px;
+  width: 72px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.5px;
+  stroke: #fff;
 }
 
 section.services {
