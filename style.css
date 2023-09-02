@@ -134,7 +134,7 @@ section.brand {
 
 .logos-slide {
   display: inline-block;
-  animation: 35s slide linear infinite;
+  animation: 20s slide linear infinite;
 }
 
 .logos-slide img {
