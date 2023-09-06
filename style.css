@@ -487,11 +487,12 @@ span.cta-hr {
 footer {
   color: rgba(255, 255, 255, 0.8);
   font-family: Satoshi;
-  font-size: 12px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 500;
   line-height: 16px; /* 133.333% */
   letter-spacing: -0.12px;
+  text-align: center;
 }
 
 /* Medium Layout: 1280px. */
