@@ -485,11 +485,11 @@ span.cta-hr {
   width: 80%;
 }
 footer {
-  color: rgba(255, 255, 255, 0.8);
+  color:  #888888;
   font-family: Satoshi;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 25px; /* 133.333% */
   letter-spacing: -0.12px;
   text-align: center;
