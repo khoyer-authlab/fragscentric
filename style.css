@@ -134,7 +134,7 @@ section.brand {
 
 .logos-slide {
   display: inline-block;
-  animation: 20s slide linear infinite;
+  animation: 60s slide linear infinite;
 }
 
 .logos-slide img {
@@ -633,6 +633,7 @@ footer {
 
   .brand h6 {
     font-size: 15px;
+    margin-top: 25px;
   }
 
   video {
