@@ -639,11 +639,11 @@ footer {
   video {
     width: 300px;
     height: 100%;
-    margin-top: 50px;
   }
 
   section.video {
     width: 100%;
+    top: -135px;
   }
 
   .logos {
