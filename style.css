@@ -8,6 +8,11 @@ body {
   font-family: "Satoshi", sans-serif;
   display: flex;
   flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 .hero {
@@ -373,7 +378,7 @@ section.video {
 video {
   border-radius: 16px;
   background: #000;
-  object-fit: fill;
+  object-fit: cover;
 }
 #play-pause-button {
   position: absolute;
@@ -400,6 +405,7 @@ section.services {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  text-transform: capitalize;
   justify-content: center;
   gap: 100px;
   margin-top: -220px;
