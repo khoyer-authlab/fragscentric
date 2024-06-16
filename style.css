@@ -395,10 +395,6 @@ video {
 #play-pause-button svg {
   height: 72px;
   width: 72px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-width: 2.5px;
-  stroke: #fff;
 }
 
 section.services {
