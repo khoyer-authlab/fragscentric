@@ -104,3 +104,9 @@ video.addEventListener("pause", function () {
 video.addEventListener("contextmenu", function (event) {
   event.preventDefault();
 });
+
+
+// Footer Copyright
+const copyrightText = `Fragscentric &copy; ${new Date().getFullYear()}, All rights reserved.`;
+
+document.querySelector('footer').innerHTML = copyrightText;
