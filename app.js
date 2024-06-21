@@ -107,6 +107,6 @@ video.addEventListener("contextmenu", function (event) {
 
 
 // Footer Copyright
-const copyrightText = `Fragscentric &copy; ${new Date().getFullYear()}, All rights reserved.`;
+const copyrightText = `Fragscentric &copy;${new Date().getFullYear()}, All rights reserved.`;
 
 document.querySelector('footer').innerHTML = copyrightText;
